@@ -1,0 +1,17 @@
+{
+  "name": "qmodal",
+  "authors": [
+    "thanachai_swa <thanachai.swa@ascendcorp.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
