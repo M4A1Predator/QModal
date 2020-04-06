@@ -14,6 +14,11 @@
 
   <div>
     ANY...
+    <br />
+    <button class="btn btn-info" id="start-btn">Start</button>
+    <br />
+    <br />
+    <button class="btn btn-info" id="start-btn-2">Start with options</button>
   </div>
 
   <!-- Modals -->
@@ -74,5 +79,36 @@
       </div>
     </div>
   </div>
+
+  <!-- scripts -->
+  <script>
+    $(document).ready(function() {
+      $('#start-btn').click(function() {
+        var q = new QModal(['#exampleModal', '#exampleModal2', '#exampleModal3'])
+        q.start()
+      })
+
+      $('#start-btn-2').click(function() {
+        var q = new QModal([
+          {
+            selector: '#exampleModal',
+            keyboard: false,
+            backdrop: 'static'
+          }, 
+          {
+            selector: '#exampleModal2',
+            keyboard: false,
+            backdrop: 'static'
+          },
+          {
+            selector: '#exampleModal3',
+            keyboard: false,
+            backdrop: 'static'
+          }
+        ])
+        q.start()
+      })
+    })
+  </script>
 </body>
 </html>
