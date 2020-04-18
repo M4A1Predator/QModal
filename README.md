@@ -1,5 +1,5 @@
 # QModal
-A snippet of code to display Bootstrap Modal Sequenctialy
+A snippet of code to display Bootstrap Modals Sequenctialy
 
 # Dependcy
 - Bootstrap
